@@ -14,7 +14,8 @@
     padding-left: 0px;
 }
 
-a {
+a 
+{
     text-decoration: none;
 }
 
@@ -204,21 +205,11 @@ a {
     padding: 20px 0px;
     display: flex;
 }
-.contain .contactInfo .box .icon
-{
-    min-width: 50px;
-    height: 50px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 20px;
-}
 .contain .contactInfo .box .text
 {
     display: flex;
     margin-left: 15px;
-    font-size: 12px;
+    font-size: 15px;
     color: rgb(0, 198, 0);
     flex-direction: column;
     font-weight: 300;
@@ -231,7 +222,7 @@ a {
 .contactForm
 {
     width: 40%;
-    padding: 40px;
+    padding: 30px;
 }
 .contactForm h2
 {
