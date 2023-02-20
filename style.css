@@ -130,6 +130,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-size: cover;
     background-color: rgb(196, 239, 132);
 }
 .contact .content
@@ -139,14 +140,14 @@
 }
 .contact .content h2
 {
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 500;
-    color: white;
+    color: green;
 }
 .contact .content p
 {
-    font-weight: 200;
-    color: white;
+    font-weight: 300;
+    color: green;
 }
 .contain
 {
@@ -236,7 +237,7 @@
 .contactForm .inputBox input:focus ~span,
 .contactForm .inputBox input:valid ~span,
 .contactForm .inputBox textarea:focus ~span,
-.contactForm .inputBox textarea:focus ~span
+.contactForm .inputBox textarea:valid ~span
 {
     color: #666;
     font-size: 12px;
