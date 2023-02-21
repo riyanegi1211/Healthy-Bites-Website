@@ -62,7 +62,8 @@ a
 {
     margin: 4%;
 }
-.button {
+.button 
+{
     padding: 15px 15px;
     font-size: 12px;
     text-align: center;
@@ -73,14 +74,16 @@ a
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
-  }
+}
   
-  .button:hover {background-color: #3e8e41}
+.button:hover 
+{background-color: #3e8e41}
   
-  .button:active {
+.button:active 
+{
     background-color: #3e8e41;
     transform: translateY(4px);
-  }
+}
 .inner
 {
     overflow: hidden;
