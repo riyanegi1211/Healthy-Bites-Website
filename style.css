@@ -74,10 +74,14 @@ a
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
+    text-transform: uppercase;
 }
   
 .button:hover 
-{background-color: #3e8e41}
+{
+    background-color: #3e8e41;
+    background: linear-gradient(90deg, #3CB371,#228B22,	#ADFF2F);
+}
   
 .button:active 
 {
