@@ -2,15 +2,21 @@
 {
     text-align: center;
     font-weight: bold;
-    color:		#800080;
+    color:	#fff;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 15px;
     padding-bottom: 5px;
 }
-.upper
+.bg-img 
 {
-    background-color: 	#DDA0DD;
+    background-image: url("Img/Dessertsbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
 }
+
 .card{
     margin-right: 10px;
     border-radius: 25px;
