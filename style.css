@@ -5,16 +5,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.body
+.bg-img 
 {
-    background-color: white;
-}
-.logo {
-    display: flex;
-    align-items: center;
-    padding-left: 0px;
-}
-
+    background-image: url("Img/Header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
 a 
 {
     text-decoration: none;
@@ -22,39 +21,29 @@ a
 
 .nav-links {
     display: flex;
-    padding-left: 350px;
+    padding-left: 600px;
+    padding-top: 10px;
     font-weight: bold;
+    color: #3e8e41;
     font-family: 'Times New Roman', Times, serif
 }
-.nav-bar .logo .logo-text
-{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: palatino;
-    transition: all 300ms ease-in-out;
-}
 .nav-links a {
-    color: white;
+    color: #3e8e41;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     padding: 30px;
     transition: all 300ms ease-in-out;
 }
-
 .nav-links a:hover {
-    color: white;
+    color: darkgreen;
     font-size: 20px;
     transition: all 300ms ease-in-out;
 }
-
 .nav-bar {
     display: flex;
-    align-items: center;
-    padding-left: 60px;
     padding-top: 0px;
-    background-color: #416d23;
+    height:800px;
+    width: 1262px;
 }
 .card{
     margin-right: 10px;
