@@ -2,10 +2,13 @@
 {
     text-align: center;
     font-weight: bold;
-    color: 	#FF1493;
+    color: 	#fff;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 15px;
     padding-bottom: 5px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 .upper
 {
@@ -30,6 +33,13 @@
 .inner:hover img
 {
     transform: scale(1.5);
+}
+.bg-img 
+{
+    background-image: url("Img/Drinksbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .button 
 {
@@ -118,3 +128,11 @@
             width: 100%;
         }
 }
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #C71585, 0 0 40px #C71585, 0 0 50px #C71585, 0 0 60px #C71585, 0 0 70px #C71585;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #FF00FF, 0 0 40px #FF00FF, 0 0 50px #FF00FF, 0 0 60px #FF00FF, 0 0 70px #FF00FF, 0 0 80px #FF00FF;
+    }
+  }
