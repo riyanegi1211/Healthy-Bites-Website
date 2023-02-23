@@ -6,7 +6,20 @@
     font-family: 'Times New Roman', Times, serif;
     padding-top: 15px;
     padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
+.bg-img 
+{
+    background-image: url("Img/Mealbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .upper
 {
     background-color: #F08080;
@@ -118,3 +131,11 @@
             width: 100%;
         }
 }
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #FFFF00, 0 0 40px #FFFF00, 0 0 50px #FFFF00, 0 0 60px #FFFF00, 0 0 70px #FFFF00, 0 0 80px #FFFF00;
+    }
+  }
