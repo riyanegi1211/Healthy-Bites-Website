@@ -2,15 +2,21 @@
 {
     text-align: center;
     font-weight: bold;
-    color: 	#FF1493;
+    color:	#fff;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 15px;
     padding-bottom: 5px;
 }
-.upper
+.bg-img 
 {
-    background-color: 	#FFC0CB;
+    background-image: url("Img/Dessertsbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
 }
+
 .card{
     margin-right: 10px;
     border-radius: 25px;
@@ -39,7 +45,7 @@
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #FF69B4;
+    background-color:	#800080;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
@@ -48,13 +54,13 @@
   
 .button:hover 
 {
-    background-color: #FF1493;
-    background: linear-gradient(90deg, #FF1493,#FF69B4,#FFB6C1);
+    background-color:#DA70D6;
+    background: linear-gradient(90deg,	#DA70D6,	#DDA0DD,	#800080);
 }
   
 .button:active 
 {
-    background-color: #FF69B4;
+    background-color:#DDA0DD;
     transform: translateY(4px);
 }
 .inner-footer
@@ -83,12 +89,12 @@
 {
     padding: 10px 20px;
     font-size: 35px;
-    color:pink;
+    color:	#800080;
 }
 .social-items a:hover
 {
     
-    color:#FF1493;
+    color:	#DA70D6;
 }
 .outer-footer
 {
