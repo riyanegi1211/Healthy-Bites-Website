@@ -1,0 +1,137 @@
+.category
+{
+    text-align: center;
+    font-weight: bold;
+    color:	#fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.bg-img 
+{
+    background-image: url("Img/Dessertsbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card{
+    margin-right: 10px;
+    border-radius: 25px;
+}
+.container
+{
+    margin: 4%;
+}
+.inner
+{
+    overflow: hidden;
+}
+.inner img
+{
+    transition: all 1.5s ease;
+}
+.inner:hover img
+{
+    transform: scale(1.5);
+}
+.button 
+{
+    padding: 15px 15px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:	#800080;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+  
+.button:hover 
+{
+    background-color:#DA70D6;
+    background: linear-gradient(90deg,	#DA70D6,	#DDA0DD,	#800080);
+}
+  
+.button:active 
+{
+    background-color:#DDA0DD;
+    transform: translateY(4px);
+}
+.inner-footer
+{
+    margin: 0;
+    padding: 0;
+    background-color: #080808;
+}
+.social-links
+{
+    display: flex;
+}
+.social-links ul
+{
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    height: 70px;
+    margin: auto;
+}
+.social-items
+{
+    list-style: none;
+}
+.social-items a
+{
+    padding: 10px 20px;
+    font-size: 35px;
+    color:	#800080;
+}
+.social-items a:hover
+{
+    
+    color:	#DA70D6;
+}
+.outer-footer
+{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: grey;
+}
+@media (max-width: 991px)
+{
+        .contact
+        {
+            padding: 50px;
+        }
+        .contain
+        {
+            flex-direction: column;
+        }
+        .contain .contactInfo
+        {
+            margin-bottom: 40px;
+        }
+        .contain.contactInfo,
+        .contactForm
+        {
+            width: 100%;
+        }
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }

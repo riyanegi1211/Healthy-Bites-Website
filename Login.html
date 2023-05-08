@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    .login-form {
+      margin-top: 5%;
+      padding: 5%;
+      background: #fff;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+    
+    .form-group input {
+      height: 50px;
+      border-radius: 25px;
+      padding: 0 20px;
+      border: none;
+      background-color: #e6e6e6;
+    }
+    
+    .form-group button {
+      height: 50px;
+      border-radius: 25px;
+      border: none;
+      background-color: #6f7bff;
+      color: #fff;
+      font-weight: bold;
+    }
+    
+    .form-group button:hover {
+      background-color: #2e37b8;
+    }
+    
+    .login-form p {
+      margin-bottom: 0;
+    }
+    
+    .login-form a {
+      color: #6f7bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 offset-md-4">
+        <form class="login-form">
+          <h3 class="text-center mb-4">Login</h3>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" placeholder="Password" required>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-block">Log in</button>
+          </div>
+          <p class="text-center">
+            <a href="#">Forgot password?</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

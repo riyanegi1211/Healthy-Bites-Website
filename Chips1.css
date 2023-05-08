@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+.full
+{
+    background-color: #f7ecd8;
+}
+.heading, p
+{
+    
+    padding-left: 15px;
+    color:	#FFA500;
+    text-align: justify;
+}
+.Sub-section, li
+{
+    padding-left: 15px;
+    color:	#FFA500;
+}
+img
+{
+    padding-top: 5px;
+}
+.container
+{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 30px auto;
+}
+.container .box
+{
+    position: relative;
+    width: calc(400px - 10px);
+    height: calc(220px - 10px);
+    background: #FFFACD;
+    float: right;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 5px;
+    background: linear-gradient(#fff,#FCF3CF,#FEF9E7 ,#FDEBD0 ,#FEF5E7 ,#F9E79F );
+}
+.container .box table
+{
+    align-items: center;
+    float: center;
+    margin: 20px;
+    border: 5px;
+}
+.container .box th,td
+{
+    padding: 0 25px;
+}
+.inner-footer
+{
+    margin: 0;
+    padding: 0;
+    background-color: #080808;
+}
+.social-links
+{
+    display: flex;
+}
+.social-links ul
+{
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    height: 70px;
+    margin: auto;
+}
+.social-items
+{
+    list-style: none;
+}
+.social-items a
+{
+    padding: 10px 20px;
+    font-size: 35px;
+    color:	#FFD700;
+}
+.social-items a:hover
+{
+    
+    color:	#FFA500;
+}
+.outer-footer
+{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: grey;
+}
+@media (max-width: 991px)
+{
+        .contact
+        {
+            padding: 50px;
+        }
+        .contain
+        {
+            flex-direction: column;
+        }
+        .contain .contactInfo
+        {
+            margin-bottom: 40px;
+        }
+        .contain.contactInfo,
+        .contactForm
+        {
+            width: 100%;
+        }
+}
